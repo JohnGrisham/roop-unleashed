@@ -242,7 +242,7 @@ def get_device() -> str:
         return "cuda"
     if "OpenVINOExecutionProvider" in prov:
         return "mkl"
-    return "cpu"
+    return "mps"
 
 
 def str_to_class(module_name, class_name) -> Any:

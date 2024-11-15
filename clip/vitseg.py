@@ -149,7 +149,7 @@ class VITDensePredT(VITDenseBase):
             p.requires_grad_(False)
 
         import clip
-        self.clip_model, _ = clip.load('ViT-B/16', device='cpu', jit=False)
+        self.clip_model, _ = clip.load('ViT-B/16', device='mps', jit=False)
         # del self.clip_model.visual
         
         

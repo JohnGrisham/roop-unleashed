@@ -13,3 +13,6 @@ config.yaml
 run.bat
 venv
 start.sh
+**/material
+*.whl
+*.onnx
